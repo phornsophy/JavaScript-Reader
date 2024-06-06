@@ -6,7 +6,7 @@ export async function getData(endpint){
         //console.log(res);
         return res;
 
-    } catch(coerror){
+    } catch(error){
         console.log("error", error);
 
     }
